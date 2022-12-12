@@ -1,0 +1,95 @@
+.justcontent-start{
+    /*Öğeleri flexbox container’ın sol tarafına hizalar.*/
+    display: flex;
+    justify-content:flex-start;
+
+}
+.justcontent-end{
+    /*Öğeleri flexbox container’ın sağ tarafına hizalar..*/
+    display: flex;
+    justify-content: flex-end;
+}
+.justcontent-center{
+    /*Öğeleri flexbox container’ın ortasına hizalar.*/
+    display: flex;
+    justify-content: center;
+
+}
+.justcontent-spacebet{
+    /*Öğeler eşit aralıklarla yatay şekilde yayılır.*/
+    display: flex;
+    justify-content: space-between;
+}
+.justcontent-spacearo{
+    /*Öğeler etraflarında eşit aralıklar olacak şekilde yatay şekilde yayılır.*/
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.items-start{
+   /*Öğeleri flexbox container’ın tepesine hizalar.*/
+   display: flex;
+   align-items: flex-start;
+}
+.items-end{
+    /*Öğeleri flexbox container’ın aşağısına hizalar.*/
+    display: flex;
+   align-items: flex-end;
+}
+.items-center{
+    /*Öğeleri flexbox container’ın dikey ortasına hizalar.*/
+    display: flex;
+   align-items: center;
+}
+.items-base{
+    /*Öğeleri flexbox container’ın yazı referans çizgisine hizalar.*/
+    display: flex;
+   align-items: baseline;
+}
+.items-str{
+    /*Öğeler flexbox container boyunca uzarlar.*/
+    display: flex;
+   align-items: stretch;
+}
+
+
+.direct-row{
+   /*Öğeler yazı yönü ile aynı yönde yerleştirilir.*/
+   display: flex;
+   flex-direction: row;
+}
+.direct-r-reserve{
+    /*Öğeler yazı yönünün tersi yönünde yerleştirilir.*/
+    display: flex;
+    flex-direction: row-reverse;
+}
+.direct-column{
+    /*Öğeler yukarıdan aşağıya doğru yerleştirilir.*/
+    display: flex;
+    flex-direction: column;
+}
+.direct-c-reserve{
+    /*Öğeler aşağıdan yukarıya doğru yerleştirilir.*/
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.wrap-no{
+      /*Tüm öğeler tek satıra sığar*/
+      display: flex;
+      flex-wrap: nowrap;
+}
+.wrap-wrap{
+    /*Öğeler satırlara bölünür.*/
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap-reserve{
+    /*Öğeler satırlara ters sırada bölünür.*/
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
